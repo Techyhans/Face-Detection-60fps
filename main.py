@@ -2,7 +2,7 @@ import cv2
 import mediapipe as mp
 import time
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("face_video.mp4")
 pTime = 0
 
 mpFaceDetection = mp.solutions.face_detection
